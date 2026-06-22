@@ -1,0 +1,41 @@
+# Configuration des repos cibles — diff0-fork v2.0.0
+# IntentHash: 0xDIFF0_FORK_TARGETS_20260604
+
+# Priority HIGH — GitHub App installed (2026-06-04)
+priority_high:
+  - UAE
+  - VDB
+  - GATEWAY-MANAGER
+  - KIVA-CLI
+  - ECOS-CLI
+  - GOVERNANCE-HUB
+  - REPO-STANDARDS
+  - APOLLO
+  - ARES
+  - KIVA
+
+# Priority MEDIUM — Review sur PRs mergees en main seulement (phase 2)
+priority_medium:
+  - IRIS
+  - KRONOS
+  - repomix-fork
+  - diff0-fork
+  - DevTools
+  - TOPOS
+  - LLM-REPO
+  - GeriCode
+  - CANDIDATOR
+  - FORGE
+
+# Exclusions permanentes
+excluded:
+  - geri-cms-*
+  - gericmsv*
+  - CLIP-FACTORY
+  - TOOL-FACTORY-1
+  - email-sender-*
+  - ATHENA
+  - ARES
+  - APOLLO
+  - HERMES
+  - VULKAN
